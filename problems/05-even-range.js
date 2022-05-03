@@ -10,7 +10,13 @@ evenRange(8, 5) => []
 *******************************************************************************/
 
 function evenRange(start, end) {
-  // your code here...
+  let evens = []
+  for (let i = start; i<=end; i++) {
+    if (i%2===0) {
+      evens.push(i)
+    }
+  }
+  return evens
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
