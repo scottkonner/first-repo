@@ -12,7 +12,7 @@ function tripler(array) {
   let tripled = []
   for (let i = 0; i<array.length; i++) {
     let big = (array[i] * 3)
-    tripled.push(array[i] )
+    tripled.push(big)
   }
   return tripled
 }
